@@ -1,0 +1,36 @@
+.site-wrapper {
+  margin-top: 86px;
+
+  @include media($medium_screen) {
+    margin-top: 50px;
+  }
+}
+
+.container {
+  margin: 0 2rem;
+
+  @include media($large_screen) {
+    margin: 0 auto;
+    max-width: 1024px;
+  }
+}
+
+.flex-container {
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-card {
+  @include box();
+  background: $white;
+  color: $black;
+  flex-basis: 100%;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+
+  @include media($medium_screen) {
+    flex-basis: 47%;
+  }
+}

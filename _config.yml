@@ -1,0 +1,13 @@
+title: 3:00pm WordPress Plugins | That Dev Girl
+production_url: https://threepm.thatdevgirl.com
+twitter_username: jonihalabi
+
+icons: '/assets/icons'
+images: '/assets/images'
+
+sass_dir: '/assets/_sass'
+sass:
+  style: compressed
+
+include: ['_pages']
+highlighter: rouge

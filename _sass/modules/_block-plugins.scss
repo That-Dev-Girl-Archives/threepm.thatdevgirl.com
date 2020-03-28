@@ -1,0 +1,43 @@
+#plugins {
+  background: url('/assets/images/pattern-bg.svg');
+  padding: 4rem 2rem;
+
+  h2 {
+    font-size: 1.75rem;
+    margin: 2rem 1.5rem 1rem;
+
+    a {
+      text-decoration: none;
+
+      &:hover,
+      &:focus {
+        color: $blue;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  p {
+    margin: 0.5rem 1.5rem;
+  }
+}
+
+.plugins__a--screenshot {
+  display: block;
+  height: 10rem;
+  overflow: hidden;
+
+  @include media( $medium_screen ) {
+    height: 13rem;
+  }
+
+  img {
+    border-radius: 5px 5px 0 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  &:hover {
+    background: transparent;
+  }
+}
