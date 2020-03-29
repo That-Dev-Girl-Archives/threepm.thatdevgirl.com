@@ -5,17 +5,23 @@ title: Load More Stuff | That Dev Girl
 ---
 
 <section class="page-title" aria-label="Primary plugin information">
-  <div class="container">
-    <h1>Load More Stuff</h1>
+  <div class="page-title-inner">
+    <div class="container">
+      <h1>Load More Stuff</h1>
 
-    <p>
-      <a href="https://wordpress.org/plugins/load-more-stuff/" class="btn doc-cta"><span class="fa fa-download"></span> Download from WordPress</a>
-      <a href="https://github.com/thatdevgirl/wordpress-load-more" class="btn doc-cta"><span class="fa fa-github-square"></span> View on GitHub</a>
-    </p>
+      <p>
+        <a href="https://wordpress.org/plugins/load-more-stuff/" class="btn primary">
+          <span class="fa fa-download"></span> Download from WordPress
+        </a>
+        <a href="https://github.com/thatdevgirl/wordpress-load-more" class="btn primary">
+          <span class="fa fa-github"></span> View on GitHub
+        </a>
+      </p>
 
-    <p>
-      This WordPress plugin adds a same-page pagination button to any archive page.
-    </p>
+      <p class="description">
+        This WordPress plugin adds a same-page pagination button to any archive page.
+      </p>
+    </div>
   </div>
 </section>
 

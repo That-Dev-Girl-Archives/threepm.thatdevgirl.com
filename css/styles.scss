@@ -4,23 +4,21 @@
 @import 'vendor/bourbon/bourbon';
 @import 'vendor/neat/neat';
 @import 'vendor/fontawesome/fontawesome';
-@import 'vendor/pygments-css/colorful';
-
-@import 'globals/variables';
-@import 'globals/mixins';
 
 @import 'globals/reset';
-@import 'globals/base';
+@import 'globals/colors';
+@import 'globals/sizes';
+@import 'globals/mixins';
+
 @import 'globals/typography';
-@import 'globals/layout';
-@import 'globals/buttons';
+@import 'globals/base';
 
-@import 'modules/page-header';
-@import 'modules/page-footer';
+@import 'layout/main';
+@import 'layout/header';
+@import 'layout/footer';
 
-@import 'modules/block-about';
-@import 'modules/block-code';
-@import 'modules/block-plugins';
-
-@import 'modules/page-404';
-@import 'modules/documentation-pages';
+@import 'components/block-code';
+@import 'components/block-lead';
+@import 'components/block-plugins';
+@import 'components/button';
+@import 'components/documentation';

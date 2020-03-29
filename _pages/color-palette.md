@@ -5,17 +5,23 @@ title: Color Palette | That Dev Girl
 ---
 
 <section class="page-title" aria-label="Primary plugin information">
-  <div class="container">
-    <h1>Color Palette</h1>
+  <div class="page-title-inner">
+    <div class="container">
+      <h1>Color Palette</h1>
 
-    <p>
-      <a href="http://wordpress.org/plugins/color-palette/" class="btn doc-cta"><span class="fa fa-download"></span> Download from WordPress</a>
-      <a href="https://github.com/thatdevgirl/wordpress-color-palette" class="btn doc-cta"><span class="fa fa-github-square"></span> View on GitHub</a>
-    </p>
+      <p>
+        <a href="http://wordpress.org/plugins/color-palette/" class="btn primary">
+          <span class="fa fa-download"></span> Download from WordPress
+        </a>
+        <a href="https://github.com/thatdevgirl/wordpress-color-palette" class="btn primary">
+          <span class="fa fa-github"></span> View on GitHub
+        </a>
+      </p>
 
-    <p>
-      This WordPress plugin adds a color palette block to the post editor, so content editors can easily list colors to branding and style guide pages.
-    </p>
+      <p class="description">
+        This WordPress plugin adds a color palette block to the post editor, so content editors can easily list colors to branding and style guide pages.
+      </p>
+    </div>
   </div>
 </section>
 

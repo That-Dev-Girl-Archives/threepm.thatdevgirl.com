@@ -5,17 +5,23 @@ title: WC Tiered Shipping | That Dev Girl
 ---
 
 <section class="page-title" aria-label="Primary plugin information">
-  <div class="container">
-    <h1>WC Tiered Shipping</h1>
+  <div class="page-title-inner">
+    <div class="container">
+      <h1>WC Tiered Shipping</h1>
 
-    <p>
-      <a href="http://wordpress.org/plugins/wc-tiered-shipping/" class="btn doc-cta"><span class="fa fa-download"></span> Download from WordPress</a>
-      <a href="https://github.com/thatdevgirl/woocommerce-tiered-flat-rate" class="btn doc-cta"><span class="fa fa-github-square"></span> View on GitHub</a>
-    </p>
+      <p>
+        <a href="http://wordpress.org/plugins/wc-tiered-shipping/" class="btn primary">
+          <span class="fa fa-download"></span> Download from WordPress
+        </a>
+        <a href="https://github.com/thatdevgirl/woocommerce-tiered-flat-rate" class="btn primary">
+          <span class="fa fa-github"></span> View on GitHub
+        </a>
+      </p>
 
-    <p>
-      This WordPress plugin adds a tiered flat rate shipping option for the WooCommerce plugin.
-    </p>
+      <p class="description">
+        This WordPress plugin adds a tiered flat rate shipping option for the WooCommerce plugin.
+      </p>
+    </div>
   </div>
 </section>
 

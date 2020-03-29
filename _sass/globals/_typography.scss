@@ -1,7 +1,28 @@
+/* ***
+ * Typography styles.
+ */
+
+/*
+ * Definitions.
+ */
+
 @font-face {
   font-family: 'Consolas';
   src: url('/assets/fonts/Consolas.ttf');
 }
+
+
+/*
+ * Font variables.
+ */
+
+$sans: 'Helvetica', sans-serif;
+$monospace: 'Consolas', monospace;
+
+
+/*
+ * Styles.
+ */
 
 body {
   font-family: $sans;
