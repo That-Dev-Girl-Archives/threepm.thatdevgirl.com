@@ -42,7 +42,8 @@
    * Donation CTA buttons.
    */
 
-  &.donate {
+  &.donate,
+  &.chat {
     background: $red;
     color: $white;
 
