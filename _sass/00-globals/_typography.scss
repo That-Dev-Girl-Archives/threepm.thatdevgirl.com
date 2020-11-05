@@ -1,0 +1,28 @@
+/**
+ * GLOBAL: Typography
+ */
+
+// Definitions.
+
+@font-face {
+  font-family: 'Consolas';
+  src: url('/assets/fonts/Consolas.ttf');
+}
+
+$sans: 'Helvetica', sans-serif;
+$monospace: 'Consolas', monospace;
+
+
+// Styles.
+
+body {
+  font-family: $sans;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+i, em {
+  font-style: italic;
+}

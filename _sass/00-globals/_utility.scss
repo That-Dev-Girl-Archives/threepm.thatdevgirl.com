@@ -1,15 +1,6 @@
-/* ***
- * Base styles, general.
+/**
+ * GLOBAL: Utility
  */
-
-a {
-  color: $red;
-  transition: all 0.35s;
-
-  &:hover {
-    text-decoration: none;
-  }
-}
 
 .sr-only {
   height: 1px;
@@ -22,8 +13,4 @@ a {
 
 .center {
   text-align: center;
-}
-
-svg {
-  margin: 1rem 0;
 }

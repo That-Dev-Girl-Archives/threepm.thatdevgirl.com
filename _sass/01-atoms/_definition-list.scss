@@ -1,0 +1,30 @@
+/**
+ * ATOM: Definition list
+ */
+
+dl {
+  margin: 0 2rem;
+
+  dt {
+    clear: both;
+    display: block;
+    font-weight: bold;
+    line-height: 1.5;
+    width: 10rem;
+
+    @include media($medium_screen) {
+      float: left;
+    }
+  }
+
+  dd {
+    display: block;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+
+    @include media($medium_screen) {
+      margin-bottom: 0;
+      overflow: hidden;
+    }
+  }
+}

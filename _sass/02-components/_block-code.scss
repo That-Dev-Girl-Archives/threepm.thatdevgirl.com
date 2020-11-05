@@ -1,0 +1,46 @@
+/**
+ * COMPONENT: Code block
+ */
+
+#code {
+  background: lighten($blue, 30%);
+  display: block;
+  font-family: $monospace;
+  font-size: 1rem;
+  margin: 0;
+  padding: 2rem 1rem;
+  width: 100%;
+
+  @include media($medium_screen) {
+    font-size: 1.25rem;
+    padding: 3em 5em;
+  }
+
+
+  // Inner container.
+  .code-container {
+    margin: 0 auto;
+    width: 75%;
+  }
+
+
+  // Paragraph overrides.
+  p {
+    margin: 0.5rem 0;
+
+    @include media($medium_screen) {
+      font-size: 1.25rem;
+    }
+  }
+
+
+  // Link overrides.
+  a:not(.btn) {
+    color: darken($red, 20%);
+
+    &:hover {
+      color: $grey;
+      text-decoration: none;
+    }
+  }
+}

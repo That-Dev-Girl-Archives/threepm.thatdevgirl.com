@@ -7,9 +7,7 @@
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  //background: lighten($blue, 25%);
   margin: 0;
-  //padding: 4rem 0;
 
   .page-title-inner {
     background: rgba( $white, 0.7 );
@@ -73,13 +71,6 @@
     list-style-type: disc;
     margin: 0 0 1rem 3rem;
   }
-
-  img {
-    border: 1px solid $grey;
-    margin: 1rem 0;
-    max-width: 90%;
-    width: auto;
-  }
 }
 
 .page-documentation__ul--features {
@@ -90,20 +81,8 @@
     margin: 0 0 2rem;
   }
 
-  h3 {
-    font-size: 1rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-  }
-
   .fa {
     color: $grey;
     margin-right: 0.25rem;
-  }
-}
-
-.page-screenshots {
-  p {
-    text-align: center;
   }
 }

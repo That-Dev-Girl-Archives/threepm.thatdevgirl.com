@@ -17,7 +17,7 @@ title: 3:00pm WordPress Plugins | That Dev Girl
     </p>
 
     <p>
-      <a href="mailto:her@thatdevgirl.com" class="btn primary">E-mail me for more info</a>
+      <a href="mailto:her@thatdevgirl.com" class="btn on-blue">E-mail me for more info</a>
     </p>
   </div>
 </section>

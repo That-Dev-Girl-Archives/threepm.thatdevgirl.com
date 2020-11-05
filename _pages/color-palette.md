@@ -19,7 +19,7 @@ title: Color Palette | That Dev Girl
       </p>
 
       <p class="description">
-        This WordPress plugin adds a color palette block to the post editor, so content editors can easily list colors to branding and style guide pages.
+        This WordPress plugin adds a Color Palette block to the post editor, so content editors can easily list colors on branding and style guide pages.
       </p>
     </div>
   </div>
@@ -31,23 +31,38 @@ title: Color Palette | That Dev Girl
   <h2>Features</h2>
 
   <p>
-    This plugin adds 2 new ("Gutenberg") post editor blocks that you can use to
-    create color palettes on the fly using the new "Color Palette" block. The
-    "Color Palette" block starts with 4 "Color" blocks, but you can add additional
-    blocks or remove excess blocks as needed. Give each color block a color using
-    the selector in the Inspector Panel on the right-hand side of the editor and
-    give your color a name. Done!
+    The Color Palette block displays a group of colors on your page. The block
+    starts with 3 individual Color blocks, but you can add additional blocks or
+    remove excess blocks as needed.
+  </p>
+
+  <p>
+    Give each color block a color using the selector in the Inspector Panel on
+    the right-hand side of the editor, give your color a name, and you are done!
   </p>
 
   <p>
     If you need to use the same color palette on multiple pages or posts, simply
-    save the "Color Palette" block with all of your colors as a reusable block
+    save the Color Palette block with all of your colors as a reusable block
     through the editor.
   </p>
 </section>
 
 <section class="page-documentation page-screenshots" aria-label="Screenshots">
   <h2>Screenshots</h2>
-  <p><img src="{{site.images}}/color-palette-screenshot-1.jpg" alt="Screenshot of the Color Palette block in the post editor" /></p>
-  <p><img src="{{site.images}}/color-palette-screenshot-2.jpg" alt="Screenshot of the Color Palette block on the front-end" /></p>
+
+  <figure>
+    <img src="{{site.images}}/color-palette-screenshot-1.jpg" alt="The Color Palette block in the post editor.">
+    <figcaption>The Color Palette block in the post editor.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{site.images}}/color-palette-screenshot-2.jpg" alt="The Color Palette block in the front-end, displaying the colors as circles." />
+    <figcaption>The Color Palette block in the front-end, displaying the colors as circles.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{site.images}}/color-palette-screenshot-3.jpg" alt="The Color Palette block in the front-end, displaying the colors as stylized cards." />
+    <figcaption>The Color Palette block in the front-end, displaying the colors as stylized cards.</figcaption>
+  </figure>
 </section>

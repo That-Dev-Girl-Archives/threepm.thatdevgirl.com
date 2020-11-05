@@ -1,5 +1,5 @@
-/* ***
- * Base button styles.
+/**
+ * ATOM: Button
  */
 
 .btn {
@@ -8,6 +8,8 @@
   color: $black;
   display: block;
   font-family: $sans;
+  font-size: 1rem;
+  font-weight: 300;
   margin: 2rem auto 1rem;
   max-width: 14rem;
   padding: .75rem 2rem;
@@ -25,10 +27,7 @@
     top: -2px;
   }
 
-  /*
-   * Primary buttons.
-   */
-
+  // Primary buttons.
   &.primary {
     background: $blue;
     color: $white;
@@ -38,24 +37,17 @@
     }
   }
 
-  /*
-   * Donation CTA buttons.
-   */
-
-  &.donate,
-  &.chat {
+  // Buttons on blue backgrounds.
+  &.on-blue, {
     background: $red;
     color: $white;
 
     &:hover {
-      background: $blue;
+      background: $orange;
     }
   }
 
-  /*
-   * Large buttons
-   */
-
+  // Large buttons.
   &.large {
     font-size: 1.25rem;
     max-width: 18rem;

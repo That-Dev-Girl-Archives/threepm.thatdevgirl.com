@@ -1,0 +1,12 @@
+/**
+ * Atoms: Link
+ */
+
+a {
+  color: $red;
+  transition: all 0.35s;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
