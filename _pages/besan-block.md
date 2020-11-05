@@ -10,10 +10,10 @@ title: Besan Block | That Dev Girl
       <h1>Besan Block</h1>
 
       <p>
-        <a href="http://wordpress.org/plugins/besan-block/" class="btn primary">
+        <a href="http://wordpress.org/plugins/besan-block/" class="btn on-blue">
           <span class="fa fa-download"></span> Download from WordPress
         </a>
-        <a href="https://github.com/thatdevgirl/besan-block" class="btn primary">
+        <a href="https://github.com/thatdevgirl/besan-block" class="btn on-blue">
           <span class="fa fa-github"></span> View on GitHub
         </a>
       </p>
@@ -25,9 +25,7 @@ title: Besan Block | That Dev Girl
   </div>
 </section>
 
-{% include block-donate.html %}
-
-<section class="page-documentation" aria-label="Plugin features">
+<section class="page-documentation" aria-label="Plugin details">
   <h2>Features</h2>
 
   <p>
@@ -41,11 +39,23 @@ title: Besan Block | That Dev Girl
     Currently, the block only supports vertical and horizontal bar charts, but more
     charting options are coming soon.
   </p>
+  
+  <h2>Screenshots</h2>
+
+  <figure>
+    <img src="{{site.images}}/besan-block-screenshot-1.jpg" alt="Screenshot of the Besan block in the post editor." />
+    <figcaption>Screenshot of the Besan block in the post editor.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{site.images}}/besan-block-screenshot-2.jpg" alt="Screenshot of the Besan block on the front-end, displaying a vertical bar chart." />
+    <figcaption>Screenshot of the Besan block on the front-end, displaying a vertical bar chart.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{site.images}}/besan-block-screenshot-3.jpg" alt="Screenshot of the Besan block on the front-end, displaying a horizontal bar chart." />
+    <figcaption>Screenshot of the Besan block on the front-end, displaying a horizontal bar chart.</figcaption>
+  </figure>
 </section>
 
-<section class="page-documentation page-screenshots" aria-label="Screenshots">
-  <h2>Screenshots</h2>
-  <p><img src="{{site.images}}/besan-block-screenshot-1.jpg" alt="Screenshot of the Besan block in the post editor" /></p>
-  <p><img src="{{site.images}}/besan-block-screenshot-2.jpg" alt="Screenshot of the Besan block on the front-end, displaying a vertical bar chart" /></p>
-  <p><img src="{{site.images}}/besan-block-screenshot-3.jpg" alt="Screenshot of the Besan block on the front-end, displaying a horizontal bar chart" /></p>
-</section>
+{% include block-donate.html %}

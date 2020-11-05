@@ -8,9 +8,7 @@
 @import '00-globals/reset';
 @import '00-globals/colors';
 @import '00-globals/sizes';
-@import '00-globals/mixins';
 @import '00-globals/typography';
-@import '00-globals/utility';
 
 @import '01-atoms/button';
 @import '01-atoms/definition-list';
@@ -25,6 +23,7 @@
 @import '02-components/block-lead';
 @import '02-components/block-plugins';
 @import '02-components/documentation';
+@import '02-components/donate';
 
 @import '03-layout/main';
 @import '03-layout/header';

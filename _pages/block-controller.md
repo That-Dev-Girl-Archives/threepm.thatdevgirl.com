@@ -10,10 +10,10 @@ title: Block Controller | That Dev Girl
       <h1>Block Controller</h1>
 
       <p>
-        <a href="http://wordpress.org/plugins/block-controller/" class="btn primary">
+        <a href="http://wordpress.org/plugins/block-controller/" class="btn on-blue">
           <span class="fa fa-download"></span> Download from WordPress
         </a>
-        <a href="https://github.com/thatdevgirl/block-controller" class="btn primary">
+        <a href="https://github.com/thatdevgirl/block-controller" class="btn on-blue">
           <span class="fa fa-github"></span> View on GitHub
         </a>
       </p>
@@ -25,9 +25,7 @@ title: Block Controller | That Dev Girl
   </div>
 </section>
 
-{% include block-donate.html %}
-
-<section class="page-documentation" aria-label="Plugin features">
+<section class="page-documentation" aria-label="Plugin details">
   <h2>Features</h2>
 
   <p>
@@ -40,10 +38,18 @@ title: Block Controller | That Dev Girl
     In addition, this plugin generates a list of all blocks in use by the site. A content editor
     can see how many times and on what posts or pages any particular block is used.
   </p>
+  
+  <h2>Screenshots</h2>
+
+  <figure>
+    <img src="{{site.images}}/block-controller-screenshot-1.jpg" alt="Screenshot of the Block Controller admin screen where an editor can turn on and off post editor blocks." />
+    <figcaption>Screenshot of the Block Controller admin screen where an editor can turn on and off post editor blocks.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="{{site.images}}/block-controller-screenshot-2.jpg" alt="Screenshot of the Block Controller admin screen where an editor can see a list of posts used by each block." />
+    <figcaption>Screenshot of the Block Controller admin screen where an editor can see a list of posts used by each block.</figcaption>
+  </figure>
 </section>
 
-<section class="page-documentation page-screenshots" aria-label="Screenshots">
-  <h2>Screenshots</h2>
-  <p><img src="{{site.images}}/block-controller-screenshot-1.jpg" alt="Screenshot of the Block Controller admin screen where an editor can turn on and off post editor blocks" /></p>
-  <p><img src="{{site.images}}/block-controller-screenshot-2.jpg" alt="Screenshot of the Block Controller admin screen where an editor can see a list of posts used by each block" /></p>
-</section>
+{% include block-donate.html %}

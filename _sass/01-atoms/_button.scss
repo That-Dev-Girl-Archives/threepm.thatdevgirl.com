@@ -41,6 +41,7 @@
   &.on-blue, {
     background: $red;
     color: $white;
+    text-shadow: none;
 
     &:hover {
       background: $orange;

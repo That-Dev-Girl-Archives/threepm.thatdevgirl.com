@@ -1,5 +1,5 @@
-/* ***
- * Documentation page styles.
+/**
+ * COMPONENT: Documentation
  */
 
 .page-title {
@@ -10,9 +10,11 @@
   margin: 0;
 
   .page-title-inner {
-    background: rgba( $white, 0.7 );
+    background: rgba( $black, 0.7 );
+    color: $white;
     height: 100%;
     padding: 4rem 0 4rem;
+    text-shadow: 1px 1px $black;
     width: 100%;
   }
 
@@ -22,33 +24,9 @@
     margin-bottom: 2rem;
   }
 
-  .description {
-    font-size: 1.1rem;
-    font-weight: 400;
-    line-height: 1.75;
-  }
-
   .btn {
     display: inline-block;
     margin: 0 2rem 2rem 0;
-    max-width: 20rem;
-  }
-}
-
-.page-donate {
-  background: rgba( $blue, 0.6 );
-  margin: 0 0 2rem;
-  padding: 2rem 1rem;
-  text-align: center;
-
-  p {
-    font-size: 1.2rem;
-    font-weight: 400;
-    margin: 0;
-  }
-
-  .btn {
-    margin: 1rem auto 0;
     max-width: 20rem;
   }
 }
@@ -57,14 +35,13 @@
   margin: 2rem;
 
   @include media( $medium_screen ) {
-    @include large-screen-block();
+    margin: 0 auto;
+    width: 66%;
   }
 
   h2 {
     border-bottom: 2px solid $red;
-    margin: 1rem 0 2rem;
     padding-bottom: 0.5rem;
-    text-align: left;
   }
 
   li {
